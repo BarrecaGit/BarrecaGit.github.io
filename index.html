@@ -1,0 +1,191 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="./css/site.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <section id="top" class="row">
+                <div id="topColumn" class="col-md-2">
+                    <img id="avatar" src="./img/thumbnail (2).jpg" alt="">
+                </div>
+                <div id="topColumn2" class="col-md-10 ">
+                    <h3 class="text-white">Mark Barreca</h3>
+                    <p><a href="#contact" style="text-decoration:none; color:white;">contact me</a></p>
+                </div>
+            </section>
+
+            <section id="about" class="pt-4">
+                <h5 class="text-white">About Me</h5>
+                <p class="text-g">
+                    Hi, I'm Mark and I enjoy working with technology to solve problems 
+                </p>
+                <p class="text-g">
+                    I'm based in Jacksonville, Florida and studied Computer Information Systems at the University of North Florida. Please feel free to explore my personal site here and <a href="#contact" style="text-decoration:none; color:white;">contact</a> at anytime!
+                </p>
+            </section>
+            
+
+            <section class="pt-4" id="education">
+                <h5 class="text-white pb-2">Education</h5>
+                <div class="row">
+                    <div id="schoolLogo" class="col-md-3 text-g">
+                        <img src="img/unf-logo.png" alt="" srcset="" id="unfLogo">
+                    </div>
+                    <div class="col-md-7 text-white">
+                        <p id="schoolTitle">University of North Florida</p>
+                        <p class="text-white" id="dEarned">Bachelor of Science in Computing and Information Systems</p>
+                        <p class="text-g" id="subtxt">2020 - 2022 • 3.23 GPA</p> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="schoolLogo" class="col-md-3 text-g">
+                        <img src="img/fscj-logo.png" alt="" id="fscjLogo">
+                    </div>
+                    <div class="col-md-7 text-white">
+                        <p id="schoolTitle">Florida State College at Jacksonville</p>
+                        <p class="text-white" id="dEarned">Associates of Arts</p>
+                        <p class="text-g" id="subtxt">2017 - 2019 • 3.25 GPA</p> 
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <section class="pt-4" id="projects">
+                <h5 class="text-white pb-2">Projects</h5>
+                <div class="row">
+                    <div class="col-md-3 text-g">
+                        <p>2021 - 2022</p>
+                    </div>
+                    <div class="col-md-8 text-white">
+                        <img id="vLogo" class="pb-2" src="./img/VolunTEEN_Logo.png" alt="">
+                        <p id="listLink">
+                            VolunTEEN
+                            <a href="https://volunteen.azurewebsites.net/" target="_blank">
+                                <i class="material-icons md-20 md-light" style="position:relative;" >arrow_outward</i>
+                            </a>
+                        <p class="text-g">
+                            This web application was built for a local not-for-profit organization to connect volunteers and nonprofit organizations to fulfill volunteer opportunity events                 
+                        </p>
+                    <p class="text-g" id="subtext">
+                            C# • ASP.NET MVC • Agile
+                        </p>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-md-3 text-g">
+                            <p>2022</p>
+                        </div>
+                        <div class="col-md-8 text-white">
+                            <p id="listLink">
+                                Node.js Blog
+                                <a href="https://github.com/BarrecaGit/Blog-Angular-Front-end" target="_blank">
+                                    <i class="material-icons md-20 md-light" style="position:relative;" >arrow_outward</i>
+                                </a>
+                            </p>
+                            <p class="text-g">
+                                This is a REST api written with Express and works with a clientside Angular application to create a blog website. 
+                            </p>
+                        <p class="text-g" id="subtext">
+                                Node • Express • Angular
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </section>
+            
+            <section class="pt-4" id="contact">
+                <h5 class="text-white pb-2">My contact information</h5>
+                <div class="row">
+                    <div class="col-md-3 text-white">
+                        <p>Phone</p>
+                    </div>
+                    <div class="col-md-7 text-g">
+                        <p>
+                            904-228-4368
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-white">
+                        <p>Email</p>
+                    </div>
+                    <div class="col-md-7 text-g">
+                       <p><a href="mailto:barrecamark@yahoo.com">
+                        barrecamark@yahoo.com
+                    </a></p>
+                    </div>
+                    <div class="col-md-3 text-white">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="col-md-7 text-g">
+                        <p>
+                            BarrecaGit
+                            <a href="https://github.com/BarrecaGit" target="_blank">
+                                <i class="material-icons md-14 md-light">arrow_outward</i></a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 text-white">
+                        <p>LinkedIn </p>
+                    </div>
+                    <div class="col-md-7 text-g">
+                        <p>
+                            Mark Barreca
+                            <a href="https://www.linkedin.com/in/mark-b-6b1452102" target="_blank">
+                                <i class="material-icons md-14 md-light">arrow_outward</i></a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resume" class="pt-4">
+                <h5 class="text-white pb-2">Resume <a href="/documents/Mark Barreca resume.pdf" download>
+                    <i class="material-icons md-light" style="position:relative; top: 5px;">
+                    download
+                    </i>
+                </a>
+                </h5>
+                <a href="/documents/Mark Barreca resume.pdf" class="text-g" download>Download resume</a>
+            </section>
+
+            <section id="skills" class="pt-4">
+                <h5 class="text-white">Skills</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>C#</li>
+                            <li>ASP.NET MVC</li>
+                            <li>Bootstrap</li>
+                            <li>Angular</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    

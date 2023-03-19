@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+html {font-size: 1.375em;}
+body{
+    background-color: #121212;
+    font-family: 'Inter', sans-serif;
+    font-size: 100%; 
+    line-height: 1.4;
+    padding-bottom: 100px;
+}
+
+#top #topColumn{
+    padding-top:10px;
+}
+
+#top #topColumn2{
+    padding-left:35px;
+    padding-top:10px;
+}
+
+p { 
+    font-size: 14px;
+}
+
+#projects #listLink{
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    font-size:14px;
+}
+
+a:hover{
+    color:whitesmoke;
+}
+
+#subtext{ 
+    font-size: 13px; 
+}
+
+.container{
+    padding-top: 100px;
+    width:500px;
+}
+
+#avatar{
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+}
+
+.text-g{
+    color: #ccc;
+}
+
+.bold{ 
+    font-weight:bolder;
+}
+
+.proj-img{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+ul{
+    margin: 0px 0px 0px;
+    padding: 0px;
+}
+
+li{
+   list-style-type: none; 
+   font-size: 14px;
+   color: #B3B3B3;
+   margin: 5px 0px 0px;
+}
+
+@media screen and (max-width: 780px) {    
+    #top #topColumn{
+        padding-left:30px;
+        padding-top:10px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #fscjLogo{
+        height: auto;
+        max-width: 25%;
+        margin-top: 5px;
+    }
+
+    #schoolLogo{
+        padding-bottom: 10px;
+    }
+
+}
+
+#vLogo{
+    transform: scaleY(-1);
+}
+
+#unfLogo{
+    height: 75px;
+    width: auto;
+}
+
+#fscjLogo{
+    height: auto;
+    width: 90%;
+    margin-top:5px;
+}
+
+#schoolTitle{
+    font-size: large; 
+    margin-bottom: 5px;
+}
+
+#dEarned{
+    margin-bottom: 5px;
+}
+
+.material-icons{ font-weight: 100; }
+.material-icons.md-14 { font-size: 14px; }
+.material-icons.md-20 { font-size: 20px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-60 { font-size: 60px; }
+.material-icons.md-light { color: #ffffff }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
